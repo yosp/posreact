@@ -23,7 +23,7 @@ export default function userReducer(state = initialState, action ) {
             const { username, fullname, imagepath } = action.users;
             const newState = Object.assign({}, state, {
                 inProgress: false,
-                success: 'Got user.',
+                success: 'Got user',
                 fullname,
                 imagepath,
                 username
